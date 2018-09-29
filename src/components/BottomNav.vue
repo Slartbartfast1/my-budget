@@ -1,9 +1,6 @@
 <template>
 
-    <v-card height="200px" flat fixed>
-        <router-link></router-link>
-        <router-link></router-link>
-        <router-link></router-link>
+
         <v-bottom-nav
                 :active.sync="bottomNav"
                 :value="true"
@@ -19,8 +16,8 @@
                         value="recent"
 
                 >
-                    <span>Recent</span>
-                    <v-icon>history</v-icon>
+                    <span>新增</span>
+                    <v-icon>add</v-icon>
                 </v-btn>
             </router-link>
 
@@ -30,8 +27,8 @@
                         flat
                         value="favorites"
                 >
-                    <span>Favorites</span>
-                    <v-icon>favorite</v-icon>
+                    <span>账单</span>
+                    <v-icon>credit_card</v-icon>
                 </v-btn>
             </router-link>
             <router-link to="/about">
@@ -40,12 +37,12 @@
                         flat
                         value="nearby"
                 >
-                    <span>Nearby</span>
-                    <v-icon>place</v-icon>
+                    <span>图表</span>
+                    <v-icon>pie_chart</v-icon>
                 </v-btn>
             </router-link>
         </v-bottom-nav>
-    </v-card>
+
 </template>
 
 
