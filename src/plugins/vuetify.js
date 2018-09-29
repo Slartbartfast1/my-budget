@@ -1,21 +1,6 @@
 import Vue from 'vue'
 import {
-  Vuetify,
-  VApp,
-  VNavigationDrawer,
-  VFooter,
-  VList,
-  VBtn,
-  VIcon,
-  VGrid,
-  VToolbar,
-  transitions
-} from 'vuetify'
-import 'vuetify/src/stylus/app.styl'
-import zhHant from 'vuetify/es5/locale/zh-Hant'
-
-Vue.use(Vuetify, {
-  components: {
+    Vuetify,
     VApp,
     VNavigationDrawer,
     VFooter,
@@ -24,21 +9,40 @@ Vue.use(Vuetify, {
     VIcon,
     VGrid,
     VToolbar,
+    VCard,
+    VBottomNav,
     transitions
-  },
-  theme: {
-    primary: '#ee44aa',
-    secondary: '#424242',
-    accent: '#82B1FF',
-    error: '#FF5252',
-    info: '#2196F3',
-    success: '#4CAF50',
-    warning: '#FFC107'
-  },
-  customProperties: true,
-  iconfont: 'md',
-  lang: {
-    locales: { zhHant },
-    current: 'zh-Hant'
-  },
+} from 'vuetify'
+import 'vuetify/src/stylus/app.styl'
+import zhHans from 'vuetify/es5/locale/zh-Hans'
+
+Vue.use(Vuetify, {
+    components: {
+        VBottomNav,
+        VCard,
+        VApp,
+        VNavigationDrawer,
+        VFooter,
+        VList,
+        VBtn,
+        VIcon,
+        VGrid,
+        VToolbar,
+        transitions
+    },
+    theme: {
+        primary: '#ee44aa',
+        secondary: '#424242',
+        accent: '#82B1FF',
+        error: '#FF5252',
+        info: '#2196F3',
+        success: '#4CAF50',
+        warning: '#FFC107'
+    },
+    customProperties: true,
+    iconfont: 'md',
+    lang: {
+        locales: { zhHans },
+        current: 'zh-Hans'
+    },
 })

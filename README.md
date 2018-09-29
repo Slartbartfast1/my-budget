@@ -1,4 +1,4 @@
-# budget
+# my-account
 
 ## Project setup
 ```

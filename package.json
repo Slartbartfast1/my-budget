@@ -1,5 +1,5 @@
 {
-  "name": "budget",
+  "name": "my-account",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -13,15 +13,13 @@
     "roboto-fontface": "*",
     "vue": "^2.5.17",
     "vue-router": "^3.0.1",
-    "vuetify": "^1.2.0",
-    "vuex": "^3.0.1",
-    "vuex-persistedstate": "^2.5.4"
+    "vuetify": "^1.2.5",
+    "vuex": "^3.0.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.3",
     "@vue/cli-plugin-eslint": "^3.0.3",
     "@vue/cli-service": "^3.0.3",
-    "babel-plugin-component": "^1.1.1",
     "babel-plugin-transform-imports": "^1.5.0",
     "node-sass": "^4.9.0",
     "sass-loader": "^7.0.1",
