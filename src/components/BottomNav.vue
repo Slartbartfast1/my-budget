@@ -9,11 +9,11 @@
 
         >
 
-            <router-link to="/about">
+            <router-link to="/new">
                 <v-btn
                         color="teal"
                         flat
-                        value="recent"
+                        value="新增"
 
                 >
                     <span>新增</span>
@@ -21,21 +21,21 @@
                 </v-btn>
             </router-link>
 
-            <router-link to="/about">
+            <router-link to="/list">
                 <v-btn
                         color="teal"
                         flat
-                        value="favorites"
+                        value="账单"
                 >
                     <span>账单</span>
                     <v-icon>credit_card</v-icon>
                 </v-btn>
             </router-link>
-            <router-link to="/about">
+            <router-link to="/charts">
                 <v-btn
                         color="teal"
                         flat
-                        value="nearby"
+                        value="图表"
                 >
                     <span>图表</span>
                     <v-icon>pie_chart</v-icon>
