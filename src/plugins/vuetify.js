@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import {
+
     Vuetify,
     VApp,
     VNavigationDrawer,
@@ -11,7 +12,16 @@ import {
     VToolbar,
     VCard,
     VBottomNav,
-    transitions
+    VForm,
+    VSelect,
+    VSnackbar,
+    VDataTable,
+    VExpansionPanel,
+    VBottomSheet,
+    VDataIterator,
+    VTextField,
+    transitions,
+
 } from 'vuetify'
 import 'vuetify/src/stylus/app.styl'
 import zhHans from 'vuetify/es5/locale/zh-Hans'
@@ -20,6 +30,14 @@ Vue.use(Vuetify, {
     components: {
         VBottomNav,
         VCard,
+        VForm,
+        VTextField,
+        VSelect,
+        VSnackbar,
+        VDataTable,
+        VDataIterator,
+        VExpansionPanel,
+        VBottomSheet,
         VApp,
         VNavigationDrawer,
         VFooter,
@@ -31,13 +49,13 @@ Vue.use(Vuetify, {
         transitions
     },
     theme: {
-        primary: '#ee44aa',
-        secondary: '#424242',
-        accent: '#82B1FF',
-        error: '#FF5252',
-        info: '#2196F3',
-        success: '#4CAF50',
-        warning: '#FFC107'
+        primary: "#388E3C",
+        secondary: "#66BB6A",
+        accent: "#1DE9B6",
+        error: "#f44336",
+        warning: "#ffeb3b",
+        info: "#2196f3",
+        success: "#4caf50"
     },
     customProperties: true,
     iconfont: 'md',
