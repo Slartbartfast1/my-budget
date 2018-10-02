@@ -13,6 +13,9 @@ export default new Vuex.Store({
             date: '2017-12-12 12:12:12'
         },],
     },
+    getters:{
+
+    },
     mutations: {
         add(state, newPayout) {
             state.list.push(newPayout)
